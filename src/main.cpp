@@ -40,5 +40,9 @@ int main() {
     cam.lookat = point3(0, 0, -1);
     cam.vup = vec3(0, 1, 0);
 
+    cam.defocus_angle = 1.0; // the smaller the angle, the more defocus
+    cam.focus_dist = 2.0;
+
+
     cam.render(world);
 }

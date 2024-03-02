@@ -64,6 +64,7 @@ private:
     double fuzz;
 };
 
+// Transparent materials
 class dielectric : public material {
 public:
     dielectric(double index_of_refraction) : ir(index_of_refraction) {}
